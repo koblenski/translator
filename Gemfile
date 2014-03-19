@@ -11,6 +11,7 @@ group :test do
 end
 gem 'sinatra', require: 'sinatra/base'
 gem 'haml', '~> 4.0.2'
+gem 'devise', '~> 3.0.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
