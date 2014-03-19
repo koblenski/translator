@@ -5,6 +5,12 @@ gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'redis', '~> 3.0.3'
+group :test do
+  gem 'capybara', '~> 2.0.0'
+end
+gem 'sinatra', require: 'sinatra/base'
+gem 'haml', '~> 4.0.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
